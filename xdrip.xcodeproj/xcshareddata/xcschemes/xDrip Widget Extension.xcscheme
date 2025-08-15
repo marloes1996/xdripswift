@@ -30,8 +30,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F8AC425921ADEBD60078C348"
-               BuildableName = "xdrip Marloes.app"
-               BlueprintName = "xdrip Marloes"
+               BuildableName = "xdrip.app"
+               BlueprintName = "xdrip"
                ReferencedContainer = "container:xdrip.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -71,8 +71,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F8AC425921ADEBD60078C348"
-            BuildableName = "xdrip Marloes.app"
-            BlueprintName = "xdrip Marloes"
+            BuildableName = "xdrip.app"
+            BlueprintName = "xdrip"
             ReferencedContainer = "container:xdrip.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -107,8 +107,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F8AC425921ADEBD60078C348"
-            BuildableName = "xdrip Marloes.app"
-            BlueprintName = "xdrip Marloes"
+            BuildableName = "xdrip.app"
+            BlueprintName = "xdrip"
             ReferencedContainer = "container:xdrip.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
