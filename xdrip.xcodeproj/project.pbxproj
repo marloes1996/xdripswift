@@ -1589,7 +1589,7 @@
 		F8A5EEB7257CF2940085E660 /* TextsLibreNFC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextsLibreNFC.swift; sourceTree = "<group>"; };
 		F8A5EEC1257D18DC0085E660 /* LibreNFCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibreNFCDelegate.swift; sourceTree = "<group>"; };
 		F8A5EEC5257EDC910085E660 /* xdripDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = xdripDebug.entitlements; sourceTree = "<group>"; };
-		F8AC425A21ADEBD60078C348 /* xdrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xdrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8AC425A21ADEBD60078C348 /* xdrip Marloes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xdrip Marloes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8AC425D21ADEBD60078C348 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8AC425F21ADEBD60078C348 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		F8AC426421ADEBD60078C348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -2845,7 +2845,7 @@
 		F8AC425B21ADEBD60078C348 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F8AC425A21ADEBD60078C348 /* xdrip.app */,
+				F8AC425A21ADEBD60078C348 /* xdrip Marloes.app */,
 				4716A4ED2B406C3D00419052 /* xDrip Widget Extension.appex */,
 				47A6ABDF2B790CC60047A4BA /* xDrip Watch App.app */,
 				479359852B88B95A007D3CEE /* xDrip Watch Complication Extension.appex */,
@@ -3910,9 +3910,9 @@
 			productReference = 47CD64122BE9506C002BDA68 /* xDrip Notification Context Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		F8AC425921ADEBD60078C348 /* xdrip */ = {
+		F8AC425921ADEBD60078C348 /* xdrip Marloes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8AC426E21ADEBD70078C348 /* Build configuration list for PBXNativeTarget "xdrip" */;
+			buildConfigurationList = F8AC426E21ADEBD70078C348 /* Build configuration list for PBXNativeTarget "xdrip Marloes" */;
 			buildPhases = (
 				F8AC425621ADEBD60078C348 /* Sources */,
 				F8AC425721ADEBD60078C348 /* Frameworks */,
@@ -3928,7 +3928,7 @@
 				47DE41B12B864EE50041DA19 /* PBXTargetDependency */,
 				47CD641F2BE9506C002BDA68 /* PBXTargetDependency */,
 			);
-			name = xdrip;
+			name = "xdrip Marloes";
 			packageProductDependencies = (
 				4779BCED2974306300515714 /* ActionClosurable */,
 				4779BCF02974307700515714 /* CryptoSwift */,
@@ -3936,7 +3936,7 @@
 				470824D1297484B500C52317 /* SwiftCharts */,
 			);
 			productName = xdrip;
-			productReference = F8AC425A21ADEBD60078C348 /* xdrip.app */;
+			productReference = F8AC425A21ADEBD60078C348 /* xdrip Marloes.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -4013,7 +4013,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F8AC425921ADEBD60078C348 /* xdrip */,
+				F8AC425921ADEBD60078C348 /* xdrip Marloes */,
 				4716A4EC2B406C3D00419052 /* xDrip Widget Extension */,
 				47A6ABDE2B790CC60047A4BA /* xDrip Watch App */,
 				479359842B88B95A007D3CEE /* xDrip Watch Complication Extension */,
@@ -5472,7 +5472,7 @@
 				CODE_SIGN_IDENTITY = "$(XDRIP_CODE_SIGN_IDENTITY_DEBUG)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DEVELOPMENT_TEAM = "$(XDRIP_DEVELOPMENT_TEAM)";
+				DEVELOPMENT_TEAM = 6HML6U56WD;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "xDrip Widget/Info.plist";
@@ -5508,7 +5508,7 @@
 				CODE_SIGN_IDENTITY = "$(XDRIP_CODE_SIGN_IDENTITY_RELEASE)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DEVELOPMENT_TEAM = "$(XDRIP_DEVELOPMENT_TEAM)";
+				DEVELOPMENT_TEAM = 6HML6U56WD;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "xDrip Widget/Info.plist";
@@ -5542,7 +5542,7 @@
 				CODE_SIGN_ENTITLEMENTS = "xDrip Watch Complication Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DEVELOPMENT_TEAM = "$(XDRIP_DEVELOPMENT_TEAM)";
+				DEVELOPMENT_TEAM = 6HML6U56WD;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "xDrip Watch Complication/Info.plist";
@@ -5579,7 +5579,7 @@
 				CODE_SIGN_ENTITLEMENTS = "xDrip Watch Complication Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DEVELOPMENT_TEAM = "$(XDRIP_DEVELOPMENT_TEAM)";
+				DEVELOPMENT_TEAM = 6HML6U56WD;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "xDrip Watch Complication/Info.plist";
@@ -5616,7 +5616,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "$(CURRENT_PROJECT_VERSION)";
 				DEVELOPMENT_ASSET_PATHS = "\"xDrip Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = "$(XDRIP_DEVELOPMENT_TEAM)";
+				DEVELOPMENT_TEAM = 6HML6U56WD;
 				ENABLE_PREVIEWS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -5656,7 +5656,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "$(CURRENT_PROJECT_VERSION)";
 				DEVELOPMENT_ASSET_PATHS = "\"xDrip Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = "$(XDRIP_DEVELOPMENT_TEAM)";
+				DEVELOPMENT_TEAM = 6HML6U56WD;
 				ENABLE_PREVIEWS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -5694,7 +5694,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DEVELOPMENT_TEAM = "$(XDRIP_DEVELOPMENT_TEAM)";
+				DEVELOPMENT_TEAM = 6HML6U56WD;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "xDrip Notification Context Extension/Info.plist";
@@ -5729,7 +5729,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DEVELOPMENT_TEAM = "$(XDRIP_DEVELOPMENT_TEAM)";
+				DEVELOPMENT_TEAM = 6HML6U56WD;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "xDrip Notification Context Extension/Info.plist";
@@ -5892,8 +5892,9 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = "$(XDRIP_CODE_SIGN_STYLE)";
 				CURRENT_PROJECT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DEVELOPMENT_TEAM = "$(XDRIP_DEVELOPMENT_TEAM)";
+				DEVELOPMENT_TEAM = 6HML6U56WD;
 				INFOPLIST_FILE = "xdrip/Supporting Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Xdrip Marloes";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5921,8 +5922,9 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = "$(XDRIP_CODE_SIGN_STYLE)";
 				CURRENT_PROJECT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DEVELOPMENT_TEAM = "$(XDRIP_DEVELOPMENT_TEAM)";
+				DEVELOPMENT_TEAM = 6HML6U56WD;
 				INFOPLIST_FILE = "xdrip/Supporting Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Xdrip Marloes";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5986,7 +5988,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8AC426E21ADEBD70078C348 /* Build configuration list for PBXNativeTarget "xdrip" */ = {
+		F8AC426E21ADEBD70078C348 /* Build configuration list for PBXNativeTarget "xdrip Marloes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8AC426F21ADEBD70078C348 /* Debug */,
